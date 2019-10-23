@@ -1,0 +1,16 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta
+     name="description"
+     content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}BootlegNinja.Space - the space for bootleg ninjas like me - and you!{{ end }}"
+   />
+  {{ hugo.Generator }}
+  {{ $css := "css/bootstrap.min.css" | absURL }}
+  <link rel="stylesheet" href="{{ $css }}">
+  {{ $title := print .Title " | " .Site.Title }}
+  {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+  <title>{{ $title }}</title>
+  {{ partial "style.html" . }}
+  {{ partial "google-fonts" . }}
+</head>

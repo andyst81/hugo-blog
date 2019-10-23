@@ -1,0 +1,16 @@
+{{ define "main"}}
+<head>
+ <title>{{ .Title }}</title>
+</head>
+    <main id="main">
+      <body>
+        <br />
+        <center><img src="/img/slash.svg" width="150"/></center>
+        <br />
+       <center><h1>{{ .Title }}</h1></center>
+       <br />
+       {{ .Content }}
+       <h4><a class="nav-link" href="{{ "/" | relURL }}"><center>Go Home</center></a></h4>
+      </body>
+    </main>
+{{ end }}
