@@ -6,10 +6,19 @@
     <description>Recent content on bootlegNinja.space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Jan 2019 20:28:42 -0600</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bootlegninja.space/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Oops, you are offline.</title>
+      <link>https://bootlegninja.space/offline/</link>
+      <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/offline/</guid>
+      <description>You log back onto the internet to browse here.</description>
+    </item>
     
     <item>
       <title>Trees by Joyce Kilmer</title>
