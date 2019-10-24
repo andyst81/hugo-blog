@@ -1,5 +1,5 @@
 author = "Andy T"
-baseURL = "https://bootlegninja.space/"
+baseURL = "/"
 languageCode = "en-us"
 title = "bootlegNinja.space"
 [[menu.main]]
