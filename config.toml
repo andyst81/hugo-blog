@@ -26,7 +26,7 @@ weight = 1
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
 homeText = "This is my blog of my adventures learning to build websites using Hugo and a few other tools."
-[permalinks]
-blog = "/:filename/"
+#[permalinks]
+#blog = "/:filename/"
 [taxonomies]
 tag = "tags"
