@@ -7,17 +7,8 @@
 .topnav a {
   float: left;
   display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
 
-/* Add an active class to highlight the current page */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -44,7 +35,7 @@
   .topnav.responsive a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
@@ -53,10 +44,10 @@
   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("nav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  if (x.className === "nav justify-content-center topnav") {
+    x.className = "topnav responsive";
   } else {
-    x.className = "topnav";
+    x.className = "nav justify-content-center topnav";
   }
 }
 </script>
