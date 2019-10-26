@@ -1,7 +1,7 @@
 ---
 title: "That It Will Never Come Again"
 author: "Emily Dickinson"
-date: 2019-01-12T23:24:54-06:00
+date: 2019-10-22
 tags: ["poetry", "time"]
 draft: false
 description: "The poem 'That It Will Never Come Again' by Emily Dickinson"

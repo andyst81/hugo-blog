@@ -1,7 +1,7 @@
 ---
 title: "Trees"
 author: "Joyce Kilmer"
-date: 2019-01-13T20:28:42-06:00
+date: 2019-10-13
 tags: ["poetry", "trees"]
 draft: false
 description: "The poem 'Trees' by Joyce Kilmers"

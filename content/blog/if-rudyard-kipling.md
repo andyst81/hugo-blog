@@ -1,7 +1,7 @@
 ---
 title: "If"
 author: "Rudyard Kipling"
-date: 2019-01-12T22:14:57-06:00
+date: 2019-10-17
 tags: ["poetry", "life"]
 draft: false
 description: "The poem 'If' by Rudyard Kipling"
