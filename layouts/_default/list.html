@@ -1,9 +1,11 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<h1 style="text-align:center;">{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
-  <a class="font-125" href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <a class="simple" href="{{ .RelPermalink }}"><img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}"><br>
+    <span class="font-200">{{ .Title }}</span> by {{ .Params.author }}</a>
+
   <br>
   {{ partial "date-and-tags.html" . }}
 </p>

@@ -1,5 +1,7 @@
 {{ define "main" }}
+<img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
 <h1>{{ .Title }}</h1>
+<h4>by {{ .Params.author }}</h4>
 {{ partial "date-and-tags.html" . }}
 <br><p>Reading time: {{ .ReadingTime }} min </p>
 <br><br>
