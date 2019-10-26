@@ -43,12 +43,27 @@
 }
 img {
   max-width: 100%;
+  width: auto;
+  height: auto;
+  background-position:center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
 img.center {
     display: block;
     margin: 0 auto;
     margin-bottom:10px;
     border-radius: 50%;
+}
+.feat:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(1.02); /* IE 9 */
+  transform: scale(1.02);
 }
 
 </style>

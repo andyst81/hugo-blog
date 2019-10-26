@@ -3,6 +3,11 @@ baseURL = "https://bootlegninja.space/"
 languageCode = "en-us"
 title = "bootlegNinja.space"
 [[menu.main]]
+name = "Authors"
+pre = "edit-2"
+url = "/authors/"
+weight = 5
+[[menu.main]]
 name = "About"
 pre = "user"
 url = "/about/"
