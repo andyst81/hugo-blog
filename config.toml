@@ -31,6 +31,12 @@ weight = 1
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
 homeText = "This is my blog of my adventures learning to build websites using Hugo and a few other tools."
+google_fonts = [
+  ["Fira Code", "400, 700"],
+  ["Open Sans", "400, 400i, 700, 700i"]
+  ]
+heading_font = "Fira Code"
+body_font = "Open Sans"
 [taxonomies]
 tag = "tags"
 author = "authors"
