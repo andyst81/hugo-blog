@@ -2,9 +2,9 @@
 <img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
 <h1>{{ .Title }}</h1>
 <h4>by {{ .Params.author }}</h4>
+<p>Reading time: {{ .ReadingTime }} min </p>
 {{ partial "date-and-tags.html" . }}
-<br><p>Reading time: {{ .ReadingTime }} min </p>
-<br>
+<br><br>
 {{ .Content }}
 {{ partial "share-buttons.html" . }}
 
