@@ -1,7 +1,7 @@
 ---
 title: "My First Real Post"
 author: "Andy T"
-date: 2019-10-26
+date: 2019-10-24
 tags: ["wordpress", "hugo", "web design"]
 draft: false
 description: "This is the first real update of my personal blog"
