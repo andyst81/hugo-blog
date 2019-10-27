@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on bootlegNinja.space</title>
+    <link>https://bootlegninja.space/blog/</link>
+    <description>Recent content in Blog on bootlegNinja.space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bootlegninja.space/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quick Update</title>
+      <link>https://bootlegninja.space/blog/quick-update/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/quick-update/</guid>
+      <description>So this is my first mini update of this blog. I&amp;rsquo;ve been learning the technologies I mentioned in my last post and feel like I&amp;rsquo;m getting the hang of a few things now. The way this method generates static sites in really incredible. I really like it. Compared to generating posts in WordPress this really feels like I&amp;rsquo;m doing something cool and actually programming, as opposed to just making web pages.</description>
+    </item>
+    
+    <item>
+      <title>My First Real Post</title>
+      <link>https://bootlegninja.space/blog/my-first-real-post/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/my-first-real-post/</guid>
+      <description>So I&amp;rsquo;m getting back into designing websites for fun. I started learning HTML, CSS and JavaScript several years ago on freecodeCamp and I really enjoyed it, but somehow got out of practice a few years ago.
+I then found WordPress and built quite a few sites in that, but there wasn&amp;rsquo;t really much coding involved it that. Over the past few years I&amp;rsquo;ve been practicing using Python quite a bit to write scripts to make my life easier, some of which I may post here at some point in the future.</description>
+    </item>
+    
+    <item>
+      <title>That It Will Never Come Again</title>
+      <link>https://bootlegninja.space/blog/that-it-will-never-come-again-emily-dickinson/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/that-it-will-never-come-again-emily-dickinson/</guid>
+      <description>That it will never come again
+Is what makes life so sweet.
+Believing what we don’t believe
+Does not exhilarate.
+That if it be, it be at best
+An ablative estate &amp;ndash;
+This instigates an appetite
+Precisely opposite.</description>
+    </item>
+    
+    <item>
+      <title>If</title>
+      <link>https://bootlegninja.space/blog/if-rudyard-kipling/</link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/if-rudyard-kipling/</guid>
+      <description>If you can keep your head when all about you
+Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
+And yet don’t look too good, nor talk too wise:</description>
+    </item>
+    
+    <item>
+      <title>Trees</title>
+      <link>https://bootlegninja.space/blog/trees-joyce-kilmer/</link>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/trees-joyce-kilmer/</guid>
+      <description>I think that I shall never see
+A poem lovely as a tree.
+A tree whose hungry mouth is prest
+Against the earth’s sweet flowing breast;
+A tree that looks at God all day,
+And lifts her leafy arms to pray;
+A tree that may in Summer wear
+A nest of robins in her hair;
+Upon whose bosom snow has lain;
+Who intimately lives with rain.
+Poems are made by fools like me,</description>
+    </item>
+    
+  </channel>
+</rss>
