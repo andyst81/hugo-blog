@@ -2,6 +2,8 @@ author = "Andy T"
 baseURL = "https://bootlegninja.space/"
 languageCode = "en-us"
 title = "bootlegNinja.space"
+disqusShortname = "andyst81"
+googleAnalytics = "UA-87253569-1"
 
 [[menu.main]]
 name = "Home"
@@ -27,7 +29,6 @@ weight = 4
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
 homeText = "This is my blog of my adventures learning to build websites using Hugo and a few other tools."
-disqusShortname = "andyst81"
 [taxonomies]
 tag = "tags"
 author = "authors"
