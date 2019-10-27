@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="{{ $skeleton }}" />
   {{ $css := "css/stylesheet.css" | absURL }}
   <link rel="stylesheet" href="{{ $css }}">
+  <script src="https://kit.fontawesome.com/107b5af694.js" crossorigin="anonymous"></script>
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
-  <script src="https://kit.fontawesome.com/107b5af694.js" crossorigin="anonymous"></script>
   <title>{{ $title }}</title>
   <link rel="manifest" href="/manifest.json">
   <!-- reuse same icon for Safari -->

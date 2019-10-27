@@ -4,7 +4,6 @@ const BASE_CACHE_FILES = [
     '/css/skeleton.css',
     '/css/normalize.css',
     '/css/stylesheet.css',
-    '/js/feather.min.js',
     '/manifest.json',
     '/favicon.ico',
 ];
@@ -13,7 +12,6 @@ const OFFLINE_CACHE_FILES = [
     '/css/skeleton.css',
     '/css/normalize.css',
     '/css/stylesheet.css',
-    '/js/feather.min.js',
     '/offline/index.html',
 ];
 
@@ -21,7 +19,6 @@ const NOT_FOUND_CACHE_FILES = [
     '/css/skeleton.css',
     '/css/normalize.css',
     '/css/stylesheet.css',
-    '/js/feather.min.js',
     '/404.html',
 ];
 

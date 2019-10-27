@@ -1,7 +1,7 @@
-{{ $js := "js/feather.min.js" | absURL }}
+{{ $js := "sw.js" | absURL }}
 <script src="{{ $js }}"></script>
 <script>
-  feather.replace()
+  //feather.replace()
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
