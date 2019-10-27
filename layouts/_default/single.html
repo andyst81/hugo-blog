@@ -5,5 +5,5 @@
 <p>Reading time: {{ .ReadingTime }} min </p>
 {{ partial "date-and-tags.html" . }}
 {{ .Content }}
-
+{{ template "_internal/disqus.html" . }}
 {{ end }}
