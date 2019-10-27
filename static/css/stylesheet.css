@@ -73,6 +73,7 @@
 
 .font-125 {
   font-size: 125%;
+  font-family: "Fira Code";
 }
 
 .simple {
@@ -80,6 +81,7 @@
   text-decoration: none;
 }
 .simple:hover {
+  color: #222;
   text-decoration: none;
 }
 
