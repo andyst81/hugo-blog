@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web design on bootlegNinja.space</title>
+    <link>https://bootlegninja.space/tags/web-design/</link>
+    <description>Recent content in web design on bootlegNinja.space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bootlegninja.space/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Real Post</title>
+      <link>https://bootlegninja.space/blog/my-first-real-post/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/my-first-real-post/</guid>
+      <description>So I&amp;rsquo;m getting back into designing websites for fun. I started learning HTML, CSS and JavaScript several years ago through freecodeCamp and I really enjoyed it, but somehow got out of practice a few years ago.
+When I had a need to build a few websites several years ago, instead of putting the web design principles that I had already learned, I decided to use WordPress. I built quite a few sites using WordPress and some themes, but I always felt that it was kinda cheating - not really web design.</description>
+    </item>
+    
+  </channel>
+</rss>
