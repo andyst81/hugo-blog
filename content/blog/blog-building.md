@@ -11,4 +11,11 @@ featured_image: "https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ix
 I've been working on this blog for some time now and I think it's worthwhile
 to document what I've done so far, just in case it's helpful for other people.
 I mentioned in a previous post that I'm building this site with Hugo static site
-generator. 
+generator. Initially I followed a tutorial from Zachary Wade Betz, on how to
+build a Hugo blog from scratch. The tutorial can be found here:
+![Hugo Tutorial](https://zwbetz.com/make-a-hugo-blog-from-scratch/) and truly is
+a great way to get accustomed to the structure of Hugo and how to use it to build
+a great website.
+
+If you follow the tutorial, you will see the similarities in styling between this
+site and the one created in the tutorial. 

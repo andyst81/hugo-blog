@@ -5,22 +5,22 @@ title = "bootlegNinja.space"
 
 [[menu.main]]
 name = "Home"
-pre = "home"
+pre = "far fa-home"
 url = "/"
 weight = 1
 [[menu.main]]
 name = "Blog"
-pre = "edit"
+pre = "far fa-pencil"
 url = "/blog/"
 weight = 2
 [[menu.main]]
 name = "Tags"
-pre = "tag"
+pre = "far fa-hashtag"
 url = "/tags/"
 weight = 3
 [[menu.main]]
 name = "About"
-pre = "user"
+pre = "far fa-user"
 url = "/about/"
 weight = 4
 [params]
