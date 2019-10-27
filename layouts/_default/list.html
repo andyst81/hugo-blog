@@ -5,9 +5,9 @@
 <p>
   <a class="simple" href="{{ .RelPermalink }}"><img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="feat"><br>
     <span class="font-200">{{ .Title }}</span> by {{ .Params.author }}</a>
-
   <br>
   {{ partial "date-and-tags.html" . }}
+  <p style="bottom-border: 1px solid;">{{ .Content }}</p>
 </p>
 {{ end }}
 

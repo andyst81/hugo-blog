@@ -7,12 +7,14 @@
      content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}BootlegNinja.Space - the space for bootleg ninjas like me - and you!{{ end }}"
    />
   {{ hugo.Generator }}
-  {{ $css := "css/bootstrap.min.css" | absURL }}
-  <link rel="stylesheet" href="{{ $css }}">
+  {{ $norm := "css/normalize.css" | absURL }}
+  <link rel="stylesheet" href="{{ $norm }}">
+  {{ $skeleton := "css/skeleton.css" | absURL }}
+  <link rel="stylesheet" href="{{ $skeleton }}" />
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
   <title>{{ $title }}</title>
-  {{ partial "style.html" . }}
   <link rel="manifest" href="/manifest.json">
   <!-- reuse same icon for Safari -->
   <link rel="apple-touch-icon" href="favicon.ico">
