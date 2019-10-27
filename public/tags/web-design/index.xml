@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web design on bootlegNinja.space</title>
+    <link>https://bootlegninja.space/tags/web-design/</link>
+    <description>Recent content in web design on bootlegNinja.space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://bootlegninja.space/tags/web-design/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Real Post</title>
+      <link>https://bootlegninja.space/blog/my-first-real-post/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/my-first-real-post/</guid>
+      <description>So I&amp;rsquo;m getting back into designing websites for fun. I started learning HTML, CSS and JavaScript several years ago on freecodeCamp and I really enjoyed it, but somehow got out of practice a few years ago.
+I then found WordPress and built quite a few sites in that, but there wasn&amp;rsquo;t really much coding involved it that. Over the past few years I&amp;rsquo;ve been practicing using Python quite a bit to write scripts to make my life easier, some of which I may post here at some point in the future.</description>
+    </item>
+    
+  </channel>
+</rss>

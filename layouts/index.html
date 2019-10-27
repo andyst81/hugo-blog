@@ -1,10 +1,7 @@
 {{ define "main" }}
-
+<img src="img/icons/icon-256x256.png" alt="Site Logo" style="margin-left: auto;margin-right: auto;display: block;" />
 <div id="home-jumbotron" class="jumbotron text-center">
   <h1>{{ .Site.Title }}</h1>
   <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
-  <div>{{ partial "about.html" . }}</div>
-
 </div>
-
 {{ end }}

@@ -1,10 +1,11 @@
 ---
-title: "If by Rudyard Kipling"
-author: Andy T
-date: 2019-01-12T22:14:57-06:00
+title: "If"
+author: "Rudyard Kipling"
+date: 2019-10-17
 tags: ["poetry", "life"]
 draft: false
 description: "The poem 'If' by Rudyard Kipling"
+featured_image: "https://images.unsplash.com/photo-1551802871-c08d586520a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&h=300"
 ---
 
 If you can keep your head when all about you  

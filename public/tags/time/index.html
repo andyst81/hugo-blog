@@ -10,52 +10,14 @@
    />
   <meta name="generator" content="Hugo 0.59.0" />
   
-  <link rel="stylesheet" href="https://bootlegninja.space/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://bootlegninja.space/css/normalize.css">
+  
+  <link rel="stylesheet" href="https://bootlegninja.space/css/skeleton.css" />
+  
+  <link rel="stylesheet" href="https://bootlegninja.space/css/stylesheet.css">
   
   
   <title>time | bootlegNinja.space</title>
-  <style>
-.container {
-  max-width: 720px;
-}
-#nav a {
-  font-weight: bold;
-  color: inherit;
-}
-#nav-border {
-  border-bottom: 1px solid #212529;
-}
-#main {
-  margin-top: 1em;
-  margin-bottom: 4em;
-}
-#home-jumbotron {
-  background-color: inherit;
-}
-.abt-link {
-  color: #808080;
-}
-.abt-link:hover {
-  color: #C0C0C0;
-}
-
-.font-125 {
-  font-size: 125%;
-}
-.tag-btn {
-  margin-bottom: 0.3em;
-}
-img {
-  max-width: 100%;
-}
-img.center {
-    display: block;
-    margin: 0 auto;
-    margin-bottom:10px;
-    border-radius: 50%;
-}
-</style>
-
   <link rel="manifest" href="/manifest.json">
   
   <link rel="apple-touch-icon" href="favicon.ico">
@@ -63,24 +25,39 @@ img.center {
 
   <body>
     <div id="nav-border" class="container">
-  <nav id="nav" class="nav justify-content-center">
-  
+  <nav id="nav" class="nav topnav">
     
     
-    <a class="nav-link" href="/"><i data-feather="home"></i> Home</a>
-  
+    
+    <a class="nav-link" href="/"><h6><i data-feather="home"></i> Home</h6></a>
     
     
-    <a class="nav-link" href="/blog/"><i data-feather="edit"></i> Blog</a>
-  
+    
+    <a class="nav-link" href="/blog/"><h6><i data-feather="edit"></i> Blog</h6></a>
     
     
-    <a class="nav-link" href="/tags/"><i data-feather="tag"></i> Tags</a>
-  
+    
+    <a class="nav-link" href="/tags/"><h6><i data-feather="tag"></i> Tags</h6></a>
     
     
-    <a class="nav-link" href="/about/"><i data-feather="user"></i> About</a>
-  
+    
+    <a class="nav-link" href="/about/"><h6><i data-feather="user"></i> About</h6></a>
+    
+    <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">
+<i data-feather="menu" style="text-align:right !important;"></i></a>
+
+<script type="text/javascript">
+   
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "nav topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav topnav";
+  }
+}
+</script>
+
   </nav>
 </div>
 
@@ -88,26 +65,36 @@ img.center {
       <main id="main">
        
 
-<h1>time</h1>
+<h1 style="text-align:center;">time</h1>
 
 <p>
-  <a class="font-125" href="/blog/that-it-will-never-come-again-by-emily-dickinson/">That it will never come again by Emily Dickinson</a>
-  <br>
+  <a class="simple" href="/blog/that-it-will-never-come-again-emily-dickinson/"><img src="https://images.unsplash.com/photo-1550675897-cab5d3c612a1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="That It Will Never Come Again" class="feat"><br>
+    <span><h2>That It Will Never Come Again</h2></span><h6>Emily Dickinson</h6></a>
   
 
-<i data-feather="calendar"></i> <time datetime="2019-01-12">Jan 12, 2019</time><br>
+<i data-feather="calendar"></i> <time datetime="2019-10-22">Oct 22, 2019</time><br>
 
   <br>
   <i data-feather="tag"></i>
   
   
-  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://bootlegninja.space/tags/poetry">poetry</a>
+  <a class="button" href="https://bootlegninja.space/tags/poetry">poetry</a>
   
   
-  <a class="btn btn-sm btn-outline-dark tag-btn" href="https://bootlegninja.space/tags/time">time</a>
+  <a class="button" href="https://bootlegninja.space/tags/time">time</a>
   
 
 
+  <p style="bottom-border: 1px solid;"><p>That it will never come again<br />
+Is what makes life so sweet.<br />
+Believing what we don’t believe<br />
+Does not exhilarate.</p>
+
+<p>That if it be, it be at best<br />
+An ablative estate &ndash;<br />
+This instigates an appetite<br />
+Precisely opposite.</p>
+</p>
 </p>
 
 

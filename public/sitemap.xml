@@ -3,8 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bootlegninja.space/blog/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bootlegninja.space/</loc>
-    <lastmod>2019-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/hugo/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/blog/quick-update/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/wordpress/</loc>
+    <lastmod>2019-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/blog/my-first-real-post/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/web-design/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/poetry/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/blog/that-it-will-never-come-again-emily-dickinson/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/time/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/blog/if-rudyard-kipling/</loc>
+    <lastmod>2019-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/life/</loc>
+    <lastmod>2019-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,52 +73,25 @@
   </url>
   
   <url>
-    <loc>https://bootlegninja.space/blog/</loc>
-    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/tags/poetry/</loc>
-    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/tags/</loc>
-    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
+    <loc>https://bootlegninja.space/blog/trees-joyce-kilmer/</loc>
+    <lastmod>2019-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bootlegninja.space/tags/trees/</loc>
-    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/blog/trees-by-joyce-kilmer/</loc>
-    <lastmod>2019-01-13T20:28:42-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/blog/that-it-will-never-come-again-by-emily-dickinson/</loc>
-    <lastmod>2019-01-12T23:24:54-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/tags/time/</loc>
-    <lastmod>2019-01-12T23:24:54-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/blog/if-by-rudyard-kipling/</loc>
-    <lastmod>2019-01-12T22:14:57-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/tags/life/</loc>
-    <lastmod>2019-01-12T22:14:57-06:00</lastmod>
+    <lastmod>2019-10-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bootlegninja.space/404/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/authors/</loc>
   </url>
   
 </urlset>

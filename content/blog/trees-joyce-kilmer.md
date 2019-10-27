@@ -1,9 +1,11 @@
 ---
-title: "Trees by Joyce Kilmer"
-author: Andy T
-date: 2019-01-13T20:28:42-06:00
+title: "Trees"
+author: "Joyce Kilmer"
+date: 2019-10-13
 tags: ["poetry", "trees"]
 draft: false
+description: "The poem 'Trees' by Joyce Kilmers"
+featured_image: "https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&h=300"
 ---
 
 I think that I shall never see  

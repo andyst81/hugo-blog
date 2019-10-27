@@ -1,9 +1,9 @@
 {{ define "main" }}
+<img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
 <h1>{{ .Title }}</h1>
+<h6>by {{ .Params.author }}</h6>
+<p>Reading time: {{ .ReadingTime }} min </p>
 {{ partial "date-and-tags.html" . }}
-<br><p>Reading time: {{ .ReadingTime }} min </p>
-<br><br>
 {{ .Content }}
-{{ partial "share-buttons.html" . }}
 
 {{ end }}
