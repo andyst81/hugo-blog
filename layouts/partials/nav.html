@@ -1,10 +1,10 @@
 <div id="nav-border" class="container">
-  <nav id="nav" class="nav justify-content-center topnav">
-  {{ range .Site.Menus.main }}
+  <nav id="nav" class="nav topnav">
+    {{ range .Site.Menus.main }}
     {{ $icon := printf "<i data-feather=\"%s\"></i>" .Pre }}
     {{ $text := print $icon " " .Name | safeHTML }}
-    <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
-  {{ end }}
+    <a class="nav-link" href="{{ .URL }}"><h6>{{ $text }}</h6></a>
+    {{ end }}
     {{ partial "hamburger.html" }}
   </nav>
 </div>

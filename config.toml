@@ -23,11 +23,6 @@ name = "About"
 pre = "user"
 url = "/about/"
 weight = 4
-#[[menu.main]]
-#name = "Authors"
-#pre = "edit-2"
-#url = "/authors/"
-#weight = 5
 [params]
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
