@@ -10,11 +10,11 @@
 
 .nav-link {
   display: block;
-  padding: .7rem 2rem;
+  padding: .7rem 5rem;
   padding-top: 0.7rem;
-  padding-right: 2rem;
+  padding-right: 5rem;
   padding-bottom: 0.7rem;
-  padding-left: 2rem;
+  padding-left: 5rem;
 }
 
 /* Style the links inside the navigation bar */
