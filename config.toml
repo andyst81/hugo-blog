@@ -2,7 +2,7 @@ author = "Andy T"
 baseURL = "https://bootlegninja.space/"
 languageCode = "en-us"
 title = "bootlegNinja.space"
-disqusShortname = "andyst81"
+disqusShortname = "bootlegninja"
 googleAnalytics = "UA-87253569-1"
 
 [[menu.main]]
