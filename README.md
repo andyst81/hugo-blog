@@ -18,3 +18,4 @@ To do:
 - make tags page better
 - add authors
 - center (or right) nav bar and add logo
+- add reading time to blogs page
