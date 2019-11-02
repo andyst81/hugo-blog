@@ -11,7 +11,7 @@ Resources used in this project:
 - Unsplash
 
 To do:
-- add footer with credits
+- ~~add footer with credits
 - edit service worker to update html more frequently
 - update index page - better ui
 - add pagination
