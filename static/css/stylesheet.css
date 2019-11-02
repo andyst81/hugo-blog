@@ -6,6 +6,11 @@
 
 #nav-border {
   border-bottom: 2px solid #222;
+  text-align: center;
+}
+
+.nav-logo {
+  float:left !important; 
 }
 
 .nav-link {
@@ -19,7 +24,7 @@
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: right;
   display: block;
 }
 /* Hide the link that should open and close the topnav on small screens */
@@ -113,6 +118,11 @@ img.center {
   -o-transform: scale(1.02);
   -ms-transform: scale(1.02); /* IE 9 */
   transform: scale(1.02);
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
 }
 
 <style>

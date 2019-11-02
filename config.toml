@@ -6,10 +6,10 @@ disqusShortname = "bootlegninja"
 googleAnalytics = "UA-87253569-1"
 
 [[menu.main]]
-name = "Home"
+name = "Projects"
 pre = "far fa-home"
-url = "/"
-weight = 1
+url = "/projects/"
+weight = 4
 [[menu.main]]
 name = "Blog"
 pre = "far fa-pencil"
@@ -24,7 +24,7 @@ weight = 3
 name = "About"
 pre = "far fa-user"
 url = "/about/"
-weight = 4
+weight = 1
 [params]
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
