@@ -1,4 +1,3 @@
-
 ---
 title: "Adding Elements to a Hugo a Blog"
 author: "Andy T"
