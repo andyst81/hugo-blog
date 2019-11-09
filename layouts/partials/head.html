@@ -21,5 +21,8 @@
   <!-- reuse same icon for Safari -->
   <link rel="apple-touch-icon" href="favicon.ico">
   {{ template "_internal/google_analytics.html" . }}
+  {{ with .OutputFormats.Get "rss" -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
   <script data-ad-client="ca-pub-6945832736015710" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
