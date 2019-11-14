@@ -6,10 +6,30 @@
     <description>Recent content in Blog on bootlegNinja.space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bootlegninja.space/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>I Wandered Lonely As A Could</title>
+      <link>https://bootlegninja.space/blog/i-wandered-lonely-as-a-cloud-william-wordsworth/</link>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/i-wandered-lonely-as-a-cloud-william-wordsworth/</guid>
+      <description>I wandered lonely as a cloud
+That floats on high o&amp;rsquo;er vales and hills,
+When all at once I saw a crowd,
+A host, of golden daffodils;
+Beside the lake, beneath the trees,
+Fluttering and dancing in the breeze.
+Continuous as the stars that shine
+And twinkle on the milky way,
+They stretched in never-ending line
+Along the margin of a bay:
+Ten thousand saw I at a glance,
+Tossing their heads in sprightly dance.</description>
+    </item>
     
     <item>
       <title>Blog Building</title>
@@ -17,7 +37,7 @@
       <pubDate>Sun, 27 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bootlegninja.space/blog/blog-building/</guid>
-      <description>I&amp;rsquo;ve been working on this blog for some time now and I think it&amp;rsquo;s worthwhile to document what I&amp;rsquo;ve done so far, just in case it&amp;rsquo;s helpful for other people. I mentioned in a previous post that I&amp;rsquo;m building this site with Hugo static site generator. Initially I followed a tutorial from Zachary Wade Betz, on how to build a Hugo blog from scratch. The tutorial can be found here: and truly is a great way to get accustomed to the structure of Hugo and how to use it to build a great website.</description>
+      <description>I&amp;rsquo;ve been working on this blog for some time now and I think it&amp;rsquo;s worthwhile to document what I&amp;rsquo;ve done so far, just in case it&amp;rsquo;s helpful for other people. I mentioned in a previous post that I&amp;rsquo;m building this site with Hugo static site generator. Initially I followed a tutorial from Zachary Wade Betz, on how to build a Hugo blog from scratch. The tutorial can be found here Hugo Tutorial and truly is a great way to get accustomed to the structure of Hugo and how to use it to build a great website.</description>
     </item>
     
     <item>

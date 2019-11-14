@@ -24,5 +24,4 @@
   {{ with .OutputFormats.Get "rss" -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
-  <meta name="propeller" content="4fad6cd1a86c4d90039df4da03b53863">
 </head>

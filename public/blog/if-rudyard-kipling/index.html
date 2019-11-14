@@ -8,7 +8,7 @@
      name="description"
      content="My journal of how I&#39;m learning to code."
    />
-  <meta name="generator" content="Hugo 0.59.0" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   <link rel="stylesheet" href="https://bootlegninja.space/css/normalize.css">
   
@@ -22,15 +22,31 @@
   <link rel="manifest" href="/manifest.json">
   
   <link rel="apple-touch-icon" href="favicon.ico">
-</head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-87253569-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </head>
 
   <body>
     <div id="nav-border" class="container">
   <nav id="nav" class="nav topnav">
+    <a href="/" class="nav-logo nav-link"><h6><i class="far fa-terminal"></i>
+ bootlegNinja.space</h6></a>
     
     
     
-    <a class="nav-link" href="/"><h6><i class="far fa-home"></i> Home</h6></a>
+    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
     
     
     
@@ -42,7 +58,7 @@
     
     
     
-    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
+    <a class="nav-link" href="/projects/"><h6><i class="far fa-home"></i> Projects</h6></a>
     
     <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">
 <i class="far fa-bars" style="text-align:right !important;"></i></a>
@@ -120,7 +136,26 @@ With sixty seconds’ worth of distance run,<br />
 Yours is the Earth and everything that’s in it,<br />
 And—which is more—you’ll be a Man, my son!</p>
 
-
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "bootlegninja" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
       </main>
     </div>
@@ -147,4 +182,81 @@ And—which is more—you’ll be a Man, my son!</p>
 </script>
 
   </body>
+  
+<div class="container">
+  <div class="footer">
+    
+<div id="mlb2-1573268" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-1573268">
+  <div class="ml-form-align-center ">
+    <div class="ml-form-embedWrapper embedForm">
+      <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+        <div class="ml-form-embedContent" style=" ">
+          <h4></h4>
+          <p>Subscribe to receive updates!</p>
+        </div>
+        <form class="ml-block-form" action="https://app.mailerlite.com/webforms/submit/x2q5q5" data-code="x2q5q5" method="post" target="_blank">
+          <div class="ml-form-formContent horozintalForm">
+            <div class="ml-form-horizontalRow">
+              <div class="ml-input-horizontal">
+                <div style="width: 100%;" class="horizontal-fields">
+                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                    <input style="width: 50%;" type="email" class="form-control" data-inputmask="" name="fields[email]" value="" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="ml-button-horizontal">
+                <button type="submit" class="primary ">Subscribe</button>
+                <button disabled="disabled" style="display: none;" type="button" class="loading">
+
+					  <div class="ml-form-embedSubmitLoad"><div></div><div></div><div></div><div></div></div>
+
+					</button>
+              </div>
+            </div>
+          </div>
+          <style type="text/css">
+            .ml-form-recaptcha {
+              margin-bottom: 20px;
+              float: left;
+            }
+
+            .ml-form-recaptcha.ml-error iframe {
+              border: solid 1px #ff0000;
+            }
+
+            @media screen and (max-width: 768px) {
+              .ml-form-recaptcha {
+                transform: scale(0.77);
+                -webkit-transform: scale(0.77);
+                transform-origin: 0 0;
+                -webkit-transform-origin: 0 0;
+              }
+            }
+          </style>
+          <input type="hidden" name="ml-submit" value="1">
+        </form>
+      </div>
+      <div class="ml-form-successBody row-success" style="display: none">
+        <div class="ml-form-successContent">
+          <h4>Thank you!</h4>
+          <p>You have successfully joined our subscriber list.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function ml_webform_success_1573268() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-1573268 .row-success').show();
+      $('.ml-subscribe-form-1573268 .row-form').hide();
+    }
+</script>
+<img src="https://track.mailerlite.com/webforms/o/1573268/x2q5q5?v253251d9ecd93b8e74c12a37f72e896f" width="1" height="1" style="max-width: 1px; max-height: 1px; visibility: hidden; padding: 0; margin: 0; display: block;" border="0">
+<script src="https://static.mailerlite.com/js/w/webforms.min.js?v253251d9ecd93b8e74c12a37f72e896f" type="text/javascript"></script>
+
+    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space">bootlegNinja.space</a> 2019
+  <a href="https://dev.to/andyst81"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="andyst81's DEV Profile" class="dev-badge"></a></p>
+</div>
+
 </html>

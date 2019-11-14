@@ -8,7 +8,7 @@
      name="description"
      content="My journal of how I&#39;m learning to code."
    />
-  <meta name="generator" content="Hugo 0.59.0" />
+  <meta name="generator" content="Hugo 0.59.1" />
   
   <link rel="stylesheet" href="https://bootlegninja.space/css/normalize.css">
   
@@ -22,15 +22,32 @@
   <link rel="manifest" href="/manifest.json">
   
   <link rel="apple-touch-icon" href="favicon.ico">
-</head>
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-87253569-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  <link rel="alternate" type="application/rss+xml" href="https://bootlegninja.space/tags/hugo/index.xml" title="bootlegNinja.space" />
+  </head>
 
   <body>
     <div id="nav-border" class="container">
   <nav id="nav" class="nav topnav">
+    <a href="/" class="nav-logo nav-link"><h6><i class="far fa-terminal"></i>
+ bootlegNinja.space</h6></a>
     
     
     
-    <a class="nav-link" href="/"><h6><i class="far fa-home"></i> Home</h6></a>
+    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
     
     
     
@@ -42,7 +59,7 @@
     
     
     
-    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
+    <a class="nav-link" href="/projects/"><h6><i class="far fa-home"></i> Projects</h6></a>
     
     <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">
 <i class="far fa-bars" style="text-align:right !important;"></i></a>
@@ -96,13 +113,63 @@ function myFunction() {
 to document what I&rsquo;ve done so far, just in case it&rsquo;s helpful for other people.
 I mentioned in a previous post that I&rsquo;m building this site with Hugo static site
 generator. Initially I followed a tutorial from Zachary Wade Betz, on how to
-build a Hugo blog from scratch. The tutorial can be found here:
-<img src="https://zwbetz.com/make-a-hugo-blog-from-scratch/" alt="Hugo Tutorial" /> and truly is
+build a Hugo blog from scratch. The tutorial can be found here <a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Hugo Tutorial</a> and truly is
 a great way to get accustomed to the structure of Hugo and how to use it to build
 a great website.</p>
 
-<p>If you follow the tutorial, you will see the similarities in styling between this
-site and the one created in the tutorial.</p>
+<p>If you follow along with the tutorial, you will see the similarities in styling between this site and the one created in the tutorial. Since completing the tutorial, I have
+made a few modifications to the site to make it more inline with what I like.
+The first modification I made was to move from Bootstrap to Skeleton. I&rsquo;ve always
+found Bootstrap to be quite unwieldy due to the sheer number of options it has.
+As such, I was on the lookout for a similar, but much easier to handle framework
+and I believe I have found that - <a href="http://getskeleton.com/">Skeleton</a>.</p>
+
+<p>Skeleton is a very lightweight boilerplate for simple web design. It is only
+around 400 lines of CSS, focused on the most common HTML elements. It&rsquo;s certainly
+not suitable for every project, but for a simple blog with minimal styling, it&rsquo;s
+perfect. The best part is that it&rsquo;s not a million miles away from Bootstrap, so
+the conversion was fairly painless. I had to reclassify a few elements, but the
+whole process of migrating to Skeleton from Bootstrap probably look less than an
+hour.</p>
+
+<p>To make the migration, I simply downloaded the <a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/skeleton.css">Skeleton CSS file</a>, as well as the
+<a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/normalize.css">Normalize CSS</a>
+files and copied them into the &lsquo;static/css&rsquo; directory of my blog project. I made sure to
+search for Bootstrap across the whole project and made sure to link to
+Skeleton instead. Then I created a &lsquo;stylesheet.css&rsquo; file to manually add any other
+stylings required.</p>
+
+<p>After migrating to Skeleton, the next thing I wanted to do was migrate the icons to
+FontAwesome. I&rsquo;m a pro FontAwesome subscriber after contributing to their
+KickStarter campaign for FA5 several years ago. FontAwesome have a lot more icons
+to choose from and I think their icons just look a bit better too, so the switch
+was a good move for me. Again this didn&rsquo;t take a huge amount of time. I had to
+create a kit inside FontAwesome and put the link to that kit in my &lsquo;head.html&rsquo; partial.
+Then I had to rename the &ldquo;Pre&rdquo; section for each menu item in &lsquo;config.toml&rsquo; to the FontAwesome name. I also went through and changed the other icons in the blog,
+such as the &lsquo;tags&rsquo;.</p>
+
+<p>On the subject of fonts, I also changed the typography of the site by adding a
+couple of Google Fonts to the site. This was simply a matter of finding the fonts
+that I like and copying the convenient code Google Fonts provides into my
+&lsquo;stylesheet.css&rsquo; file and editing the relevant elements.</p>
+
+<p>The most difficult thing I did was creating a responsive mobile &lsquo;hamburger&rsquo; menu.
+I looked through quite a lot of responsive Hugo themes and tried to copy from them,
+but I kept running into problems - either with the styling, or messing up the menu
+on desktop or even just disappearing completely. In the end I was able to modify
+<a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">this tutorial</a>
+from W3. On Skeleton, the code in this tutorial worked well, after a little tweaking
+of classes.</p>
+
+<p>I used the &lsquo;Audit&rsquo; function in Google Chrome to analyse the site&rsquo;s performance and
+there were a lot of minor tweaks required to improve the scores there, but that&rsquo;s
+a post for another time.</p>
+
+<p>I still have several other things that I want to implement on this blog. Next up
+I will add a function to add comments, and I will also add pagination once I have more
+than 10 posts. I&rsquo;d also like to implement a &lsquo;robots.txt&rsquo; file, even though I realise it&rsquo;s not really that necessary for a site like this - I just want to do more things.I&rsquo;m sure that I&rsquo;m not done with the styling yet either.</p>
+
+<p>Thanks for reading!</p>
 </p>
 </p>
 
@@ -228,4 +295,81 @@ some time and I&rsquo;m really happy to be working towards it now.</p>
 </script>
 
   </body>
+  
+<div class="container">
+  <div class="footer">
+    
+<div id="mlb2-1573268" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-1573268">
+  <div class="ml-form-align-center ">
+    <div class="ml-form-embedWrapper embedForm">
+      <div class="ml-form-embedBody ml-form-embedBodyHorizontal row-form">
+        <div class="ml-form-embedContent" style=" ">
+          <h4></h4>
+          <p>Subscribe to receive updates!</p>
+        </div>
+        <form class="ml-block-form" action="https://app.mailerlite.com/webforms/submit/x2q5q5" data-code="x2q5q5" method="post" target="_blank">
+          <div class="ml-form-formContent horozintalForm">
+            <div class="ml-form-horizontalRow">
+              <div class="ml-input-horizontal">
+                <div style="width: 100%;" class="horizontal-fields">
+                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                    <input style="width: 50%;" type="email" class="form-control" data-inputmask="" name="fields[email]" value="" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="ml-button-horizontal">
+                <button type="submit" class="primary ">Subscribe</button>
+                <button disabled="disabled" style="display: none;" type="button" class="loading">
+
+					  <div class="ml-form-embedSubmitLoad"><div></div><div></div><div></div><div></div></div>
+
+					</button>
+              </div>
+            </div>
+          </div>
+          <style type="text/css">
+            .ml-form-recaptcha {
+              margin-bottom: 20px;
+              float: left;
+            }
+
+            .ml-form-recaptcha.ml-error iframe {
+              border: solid 1px #ff0000;
+            }
+
+            @media screen and (max-width: 768px) {
+              .ml-form-recaptcha {
+                transform: scale(0.77);
+                -webkit-transform: scale(0.77);
+                transform-origin: 0 0;
+                -webkit-transform-origin: 0 0;
+              }
+            }
+          </style>
+          <input type="hidden" name="ml-submit" value="1">
+        </form>
+      </div>
+      <div class="ml-form-successBody row-success" style="display: none">
+        <div class="ml-form-successContent">
+          <h4>Thank you!</h4>
+          <p>You have successfully joined our subscriber list.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function ml_webform_success_1573268() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-1573268 .row-success').show();
+      $('.ml-subscribe-form-1573268 .row-form').hide();
+    }
+</script>
+<img src="https://track.mailerlite.com/webforms/o/1573268/x2q5q5?v253251d9ecd93b8e74c12a37f72e896f" width="1" height="1" style="max-width: 1px; max-height: 1px; visibility: hidden; padding: 0; margin: 0; display: block;" border="0">
+<script src="https://static.mailerlite.com/js/w/webforms.min.js?v253251d9ecd93b8e74c12a37f72e896f" type="text/javascript"></script>
+
+    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space">bootlegNinja.space</a> 2019
+  <a href="https://dev.to/andyst81"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="andyst81's DEV Profile" class="dev-badge"></a></p>
+</div>
+
 </html>

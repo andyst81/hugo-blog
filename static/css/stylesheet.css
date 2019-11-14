@@ -10,7 +10,7 @@
 }
 
 .nav-logo {
-  float:left !important; 
+  float:left !important;
 }
 
 .nav-link {
@@ -123,6 +123,11 @@ img.center {
 .footer {
   margin: auto;
   text-align: center;
+}
+.dev-badge {
+  height:30px;
+  width:30px;
+  margin-bottom: -10px;
 }
 
 <style>
