@@ -5,8 +5,10 @@
 <p>
   <a class="simple" href="{{ .RelPermalink }}"><img{{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}" class="feat"><br>
     <span><h2>{{ .Title }}</h2></span><h6>{{ .Params.author }}</h6></a>
-  {{ partial "date-and-tags.html" . }}
-  <p style="bottom-border: 1px solid;">{{ .Content }}</p>
+    <p>Reading time: {{ .ReadingTime }} min </p>
+    {{ partial "date-and-tags.html" . }}
+    <p style="bottom-border: 1px solid;">{{ .Summary }}</p>
+    <a href="{{ .RelPermalink }}" class="abt-link">Read More…</a>
 </p>
 {{ end }}
 
