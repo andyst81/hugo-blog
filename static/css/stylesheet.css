@@ -70,10 +70,12 @@
 }
 
 .abt-link {
-  color: #808080;
+  color: #545454;
+  text-decoration: none;
 }
 .abt-link:hover {
-  color: #C0C0C0;
+  color: #808080;
+  text-decoration: none;
 }
 
 .font-125 {

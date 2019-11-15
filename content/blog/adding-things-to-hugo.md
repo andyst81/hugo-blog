@@ -26,18 +26,19 @@ Facebook, Twitter or Google. You can create the traditional way too, but I just 
 Once you've created your account, you will be asked something like "Nice! Your account has been created. What would you like to do with Disqus?  I want to comment on sites.  
 I want to install Disqus on my site."
 
-Fill in the form and create a unique Disqus name for your site - e.g. my-disqus-site-name. Remember this name -
-you will then go to your config.toml file in Hugo and enter the following information
+Fill in the form and create a unique Disqus name for your site - e.g. my-disqus-site-name. Remember this name as you will now need to open your Hugo site's config.toml and enter the following information
 
-disqusShortname = "my-disqus-site-name"
+    disqusShortname = "my-disqus-site-name"
 
 You will then be able to put the following inbuilt shortcode into the code of any page
 you want to have comments on:
 
     {{ template "_internal/disqus.html" . }}
 
-Personally I just put the above shortcode at the bottom of my blog post template, "single.html". I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn't working!
+No need to create this file as it's already a default inside of Hugo. Personally I just put the above shortcode at the bottom of my blog post template, "single.html". I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn't working!
 
 Another small, but cool things I've added is a link to my https://dev.to profile.
 dev.to is a massive inspiration for me and I really enjoy reading content on there.
 If you're interested in coding and are not a member, I strongly suggest you check it out.
+It is an awesome site full of content created by other developers - from beginner to
+advanced. The community there is really cool too.
