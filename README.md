@@ -8,9 +8,9 @@ Resources used in this project:
 - [Hugo](https://gohugo.io) is the site generator
 - [Zeit Now](https://zeit.co) is used for static hosting
 - [Atom](https://atom.io) is the IDE I'm using
-- [Font Awesome](https://fontawesome.com) progress all the icons
 - [Skeleton](http://getskeleton.com) is the CSS boilerplate 
-- [Disqus](https://Disqus.com) is used as the commenting system 
+- [Disqus](https://Disqus.com) is used as the commenting system
+- [Font Awesome](https://fontawesome.com) provides all icons
 - [Unsplash](https://Unsplash.com) provides all images
 
 To do:
