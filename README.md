@@ -5,10 +5,13 @@ And deployed using https://zeit.co
 With a few additions which will be added to this file later.
 
 Resources used in this project:
-- Font Awesome
-- Skeleton 
-- Disqus
-- Unsplash
+- Hugo to build site - https://gethugo.com
+- Zeit Now to deploy - https://zeit.co
+- [Atom](https://atom.io) as the IDE
+- Font Awesome for all icons - https://fontawesome.co.
+- Skeleton as the CSS boilerplate - 
+- Disqus for comments - https://Disqus.com
+- Unsplash for all images- https://Unsplash.co.
 
 To do:
 - ~~add footer with credits~~
