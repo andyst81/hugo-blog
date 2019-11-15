@@ -7,7 +7,7 @@ With a few additions which will be added to this file later.
 Resources used in this project:
 - [Hugo](https://gohugo.io) is the site generator
 - [Zeit Now](https://zeit.co) is used for static hosting
-- [Atom](https://atom.io) is the IDE I'm using
+- [Atom](https://atom.io) is the IDE
 - [Skeleton](http://getskeleton.com) is the CSS boilerplate 
 - [Disqus](https://Disqus.com) is used as the commenting system
 - [Font Awesome](https://fontawesome.com) provides all icons
