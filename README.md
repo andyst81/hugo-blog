@@ -5,13 +5,13 @@ And deployed using https://zeit.co
 With a few additions which will be added to this file later.
 
 Resources used in this project:
-- Hugo to build site - https://gethugo.com
-- Zeit Now to deploy - https://zeit.co
-- [Atom](https://atom.io) as the IDE
-- Font Awesome for all icons - https://fontawesome.co.
-- Skeleton as the CSS boilerplate - 
-- Disqus for comments - https://Disqus.com
-- Unsplash for all images- https://Unsplash.co.
+- [Hugo](https://gohugo.io) is the site generator
+- [Zeit Now](https://zeit.co) is used for static hosting
+- [Atom](https://atom.io) is the IDE I'm using
+- [Font Awesome](https://fontawesome.com) progress all the icons
+- [Skeleton](http://getskeleton.com) is the CSS boilerplate 
+- [Disqus](https://Disqus.com) is used as the commenting system 
+- [Unsplash](https://Unsplash.com) provides all images
 
 To do:
 - ~~add footer with credits~~
