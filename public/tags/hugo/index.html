@@ -86,6 +86,64 @@ function myFunction() {
 <h1 style="text-align:center;">hugo</h1>
 
 <p>
+  <a class="simple" href="/blog/adding-things-to-hugo/"><img src="https://images.unsplash.com/photo-1557244252-04610dfe5790?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=960&amp;h=300" alt="Adding Elements to a Hugo a Blog" class="feat"><br>
+    <span><h2>Adding Elements to a Hugo a Blog</h2></span><h6>Andy T</h6></a>
+  
+
+<i class="fal fa-calendar"></i> <time datetime="2019-11-15">Nov 15, 2019</time><br>
+
+  <br>
+  <i class="fas fa-hashtag"></i>
+  
+  
+  <a class="button" href="https://bootlegninja.space/tags/blogging">blogging</a>
+  
+  
+  <a class="button" href="https://bootlegninja.space/tags/hugo">hugo</a>
+  
+  
+  <a class="button" href="https://bootlegninja.space/tags/disqus">disqus</a>
+  
+
+
+  <p style="bottom-border: 1px solid;"><p>I&rsquo;ve really enjoyed playing around with Hugo over the past few weeks and am now
+using it to build another site for my wife. That site is almost complete, which is
+why I haven&rsquo;t really posted much in this site for a while. I have been playing around and adding several small things to this site though.</p>
+
+<p>One very cool addition to the site has been a Disqus comment function. It was very
+easy to set up as part of the Hugo framework and really worthwhile. I don&rsquo;t expect
+a lot of comments on this blog as it is very much a collection of the information
+I write as I put this website together.</p>
+
+<p>Anyway, how to add Disqus to a Hugo site:</p>
+
+<p>It really is as simple as signing up for a Disqus account at <a href="https://disqus.com">https://disqus.com</a>.
+Even this step is as easy as possible as you can simply register using either
+Facebook, Twitter or Google. You can create the traditional way too, but I just used Twitter.</p>
+
+<p>Once you&rsquo;ve created your account, you will be asked something like &ldquo;Nice! Your account has been created. What would you like to do with Disqus?  I want to comment on sites.<br />
+I want to install Disqus on my site.&rdquo;</p>
+
+<p>Fill in the form and create a unique Disqus name for your site - e.g. my-disqus-site-name. Remember this name -
+you will then go to your config.toml file in Hugo and enter the following information</p>
+
+<p>disqusShortname = &ldquo;my-disqus-site-name&rdquo;</p>
+
+<p>You will then be able to put the following inbuilt shortcode into the code of any page
+you want to have comments on:</p>
+
+<pre><code>{{ template &quot;_internal/disqus.html&quot; . }}
+</code></pre>
+
+<p>Personally I just put the above shortcode at the bottom of my blog post template, &ldquo;single.html&rdquo;. I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn&rsquo;t working!</p>
+
+<p>Another small, but cool things I&rsquo;ve added is a link to my <a href="https://dev.to">https://dev.to</a> profile.
+dev.to is a massive inspiration for me and I really enjoy reading content on there.
+If you&rsquo;re interested in coding and are not a member, I strongly suggest you check it out.</p>
+</p>
+</p>
+
+<p>
   <a class="simple" href="/blog/blog-building/"><img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="Blog Building" class="feat"><br>
     <span><h2>Blog Building</h2></span><h6>Andy T</h6></a>
   

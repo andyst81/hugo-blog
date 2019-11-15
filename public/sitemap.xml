@@ -3,13 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bootlegninja.space/blog/adding-things-to-hugo/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bootlegninja.space/blog/</loc>
-    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/blogging/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bootlegninja.space/</loc>
-    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/disqus/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/hugo/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bootlegninja.space/tags/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,27 +53,12 @@
   </url>
   
   <url>
-    <loc>https://bootlegninja.space/tags/</loc>
-    <lastmod>2019-11-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bootlegninja.space/blog/blog-building/</loc>
     <lastmod>2019-10-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bootlegninja.space/tags/blogging/</loc>
-    <lastmod>2019-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bootlegninja.space/tags/bootstrap/</loc>
-    <lastmod>2019-10-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bootlegninja.space/tags/hugo/</loc>
     <lastmod>2019-10-27T00:00:00+00:00</lastmod>
   </url>
   
