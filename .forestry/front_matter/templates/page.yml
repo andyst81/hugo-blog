@@ -5,3 +5,4 @@ fields:
 - type: text
   name: title
   label: title
+  description: Page title
