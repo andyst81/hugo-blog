@@ -5,10 +5,10 @@ title = "bootlegNinja.space"
 disqusShortname = "bootlegninja"
 googleAnalytics = "UA-87253569-1"
 
-##[[menu.main]]
-#name = "Projects"
+#[[menu.main]]
+#name = "Author"
 #pre = "far fa-home"
-#url = "/projects/"
+#url = "/author/"
 #weight = 4
 [[menu.main]]
 name = "Blog"
