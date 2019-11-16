@@ -1,8 +1,0 @@
----
-label: Page
-hide_body: true
-fields:
-- type: text
-  name: title
-  label: title
-  description: Page title
