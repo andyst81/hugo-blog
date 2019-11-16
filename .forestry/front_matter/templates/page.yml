@@ -6,3 +6,5 @@ fields:
   name: title
   label: title
   description: Page title
+pages:
+- content/author.md
