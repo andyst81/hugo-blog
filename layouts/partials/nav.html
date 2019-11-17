@@ -1,6 +1,5 @@
 <div id="nav-border" class="container">
   <nav id="nav" class="nav topnav">
-    <a href="/" class="nav-logo nav-link"><h6>{{ partial "logo.html"}} bootlegNinja.space</h6></a>
     {{ range .Site.Menus.main }}
     {{ $icon := printf "<i class=\"%s\"></i>" .Pre }}
     {{ $text := print $icon " " .Name | safeHTML }}

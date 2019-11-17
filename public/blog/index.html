@@ -42,12 +42,10 @@ if (!doNotTrack) {
   <body>
     <div id="nav-border" class="container">
   <nav id="nav" class="nav topnav">
-    <a href="/" class="nav-logo nav-link"><h6><i class="far fa-terminal"></i>
- bootlegNinja.space</h6></a>
     
     
     
-    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
+    <a class="nav-link" href="/"><h6><i class="far fa-terminal"></i> bootlegNinja.Space</h6></a>
     
     
     
@@ -59,7 +57,7 @@ if (!doNotTrack) {
     
     
     
-    <a class="nav-link" href="/projects/"><h6><i class="far fa-home"></i> Projects</h6></a>
+    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
     
     <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">
 <i class="far fa-bars" style="text-align:right !important;"></i></a>
@@ -88,7 +86,8 @@ function myFunction() {
 <p>
   <a class="simple" href="/blog/adding-things-to-hugo/"><img src="https://images.unsplash.com/photo-1557244252-04610dfe5790?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=960&amp;h=300" alt="Adding Elements to a Hugo a Blog" class="feat"><br>
     <span><h2>Adding Elements to a Hugo a Blog</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 2 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-11-15">Nov 15, 2019</time><br>
 
@@ -106,47 +105,16 @@ function myFunction() {
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I&rsquo;ve really enjoyed playing around with Hugo over the past few weeks and am now
-using it to build another site for my wife. That site is almost complete, which is
-why I haven&rsquo;t really posted much in this site for a while. I have been playing around and adding several small things to this site though.</p>
-
-<p>One very cool addition to the site has been a Disqus comment function. It was very
-easy to set up as part of the Hugo framework and really worthwhile. I don&rsquo;t expect
-a lot of comments on this blog as it is very much a collection of the information
-I write as I put this website together.</p>
-
-<p>Anyway, how to add Disqus to a Hugo site:</p>
-
-<p>It really is as simple as signing up for a Disqus account at <a href="https://disqus.com">https://disqus.com</a>.
-Even this step is as easy as possible as you can simply register using either
-Facebook, Twitter or Google. You can create the traditional way too, but I just used Twitter.</p>
-
-<p>Once you&rsquo;ve created your account, you will be asked something like &ldquo;Nice! Your account has been created. What would you like to do with Disqus?  I want to comment on sites.<br />
-I want to install Disqus on my site.&rdquo;</p>
-
-<p>Fill in the form and create a unique Disqus name for your site - e.g. my-disqus-site-name. Remember this name -
-you will then go to your config.toml file in Hugo and enter the following information</p>
-
-<p>disqusShortname = &ldquo;my-disqus-site-name&rdquo;</p>
-
-<p>You will then be able to put the following inbuilt shortcode into the code of any page
-you want to have comments on:</p>
-
-<pre><code>{{ template &quot;_internal/disqus.html&quot; . }}
-</code></pre>
-
-<p>Personally I just put the above shortcode at the bottom of my blog post template, &ldquo;single.html&rdquo;. I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn&rsquo;t working!</p>
-
-<p>Another small, but cool things I&rsquo;ve added is a link to my <a href="https://dev.to">https://dev.to</a> profile.
-dev.to is a massive inspiration for me and I really enjoy reading content on there.
-If you&rsquo;re interested in coding and are not a member, I strongly suggest you check it out.</p>
-</p>
+    <p style="bottom-border: 1px solid;">I&rsquo;ve really enjoyed playing around with Hugo over the past few weeks and am now using it to build another site for my wife. That site is almost complete, which is why I haven&rsquo;t really posted much in this site for a while. I have been playing around and adding several small things to this site though.
+One very cool addition to the site has been a Disqus comment function. It was very easy to set up as part of the Hugo framework and really worthwhile.</p>
+    <a href="/blog/adding-things-to-hugo/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/i-wandered-lonely-as-a-cloud-william-wordsworth/"><img src="https://images.unsplash.com/photo-1509803874385-db7c23652552?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=960&amp;h=300" alt="I Wandered Lonely As A Could" class="feat"><br>
     <span><h2>I Wandered Lonely As A Could</h2></span><h6>William Wordsworth</h6></a>
-  
+    <p>Reading time: 1 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-11-02">Nov 2, 2019</time><br>
 
@@ -161,40 +129,26 @@ If you&rsquo;re interested in coding and are not a member, I strongly suggest yo
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I wandered lonely as a cloud<br />
-That floats on high o&rsquo;er vales and hills,<br />
-When all at once I saw a crowd,<br />
-A host, of golden daffodils;<br />
-Beside the lake, beneath the trees,<br />
-Fluttering and dancing in the breeze.</p>
-
-<p>Continuous as the stars that shine<br />
-And twinkle on the milky way,<br />
-They stretched in never-ending line<br />
-Along the margin of a bay:<br />
-Ten thousand saw I at a glance,<br />
+    <p style="bottom-border: 1px solid;">I wandered lonely as a cloud
+That floats on high o&rsquo;er vales and hills,
+When all at once I saw a crowd,
+A host, of golden daffodils;
+Beside the lake, beneath the trees,
+Fluttering and dancing in the breeze.
+Continuous as the stars that shine
+And twinkle on the milky way,
+They stretched in never-ending line
+Along the margin of a bay:
+Ten thousand saw I at a glance,
 Tossing their heads in sprightly dance.</p>
-
-<p>The waves beside them danced; but they<br />
-Out-did the sparkling waves in glee:<br />
-A poet could not but be gay,<br />
-In such a jocund company:<br />
-I gazed—and gazed—but little thought<br />
-What wealth the show to me had brought:</p>
-
-<p>For oft, when on my couch I lie<br />
-In vacant or in pensive mood,<br />
-They flash upon that inward eye<br />
-Which is the bliss of solitude;<br />
-And then my heart with pleasure fills,<br />
-And dances with the daffodils.</p>
-</p>
+    <a href="/blog/i-wandered-lonely-as-a-cloud-william-wordsworth/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/blog-building/"><img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="Blog Building" class="feat"><br>
     <span><h2>Blog Building</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 4 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-27">Oct 27, 2019</time><br>
 
@@ -215,74 +169,15 @@ And dances with the daffodils.</p>
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I&rsquo;ve been working on this blog for some time now and I think it&rsquo;s worthwhile
-to document what I&rsquo;ve done so far, just in case it&rsquo;s helpful for other people.
-I mentioned in a previous post that I&rsquo;m building this site with Hugo static site
-generator. Initially I followed a tutorial from Zachary Wade Betz, on how to
-build a Hugo blog from scratch. The tutorial can be found here <a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Hugo Tutorial</a> and truly is
-a great way to get accustomed to the structure of Hugo and how to use it to build
-a great website.</p>
-
-<p>If you follow along with the tutorial, you will see the similarities in styling between this site and the one created in the tutorial. Since completing the tutorial, I have
-made a few modifications to the site to make it more inline with what I like.
-The first modification I made was to move from Bootstrap to Skeleton. I&rsquo;ve always
-found Bootstrap to be quite unwieldy due to the sheer number of options it has.
-As such, I was on the lookout for a similar, but much easier to handle framework
-and I believe I have found that - <a href="http://getskeleton.com/">Skeleton</a>.</p>
-
-<p>Skeleton is a very lightweight boilerplate for simple web design. It is only
-around 400 lines of CSS, focused on the most common HTML elements. It&rsquo;s certainly
-not suitable for every project, but for a simple blog with minimal styling, it&rsquo;s
-perfect. The best part is that it&rsquo;s not a million miles away from Bootstrap, so
-the conversion was fairly painless. I had to reclassify a few elements, but the
-whole process of migrating to Skeleton from Bootstrap probably look less than an
-hour.</p>
-
-<p>To make the migration, I simply downloaded the <a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/skeleton.css">Skeleton CSS file</a>, as well as the
-<a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/normalize.css">Normalize CSS</a>
-files and copied them into the &lsquo;static/css&rsquo; directory of my blog project. I made sure to
-search for Bootstrap across the whole project and made sure to link to
-Skeleton instead. Then I created a &lsquo;stylesheet.css&rsquo; file to manually add any other
-stylings required.</p>
-
-<p>After migrating to Skeleton, the next thing I wanted to do was migrate the icons to
-FontAwesome. I&rsquo;m a pro FontAwesome subscriber after contributing to their
-KickStarter campaign for FA5 several years ago. FontAwesome have a lot more icons
-to choose from and I think their icons just look a bit better too, so the switch
-was a good move for me. Again this didn&rsquo;t take a huge amount of time. I had to
-create a kit inside FontAwesome and put the link to that kit in my &lsquo;head.html&rsquo; partial.
-Then I had to rename the &ldquo;Pre&rdquo; section for each menu item in &lsquo;config.toml&rsquo; to the FontAwesome name. I also went through and changed the other icons in the blog,
-such as the &lsquo;tags&rsquo;.</p>
-
-<p>On the subject of fonts, I also changed the typography of the site by adding a
-couple of Google Fonts to the site. This was simply a matter of finding the fonts
-that I like and copying the convenient code Google Fonts provides into my
-&lsquo;stylesheet.css&rsquo; file and editing the relevant elements.</p>
-
-<p>The most difficult thing I did was creating a responsive mobile &lsquo;hamburger&rsquo; menu.
-I looked through quite a lot of responsive Hugo themes and tried to copy from them,
-but I kept running into problems - either with the styling, or messing up the menu
-on desktop or even just disappearing completely. In the end I was able to modify
-<a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">this tutorial</a>
-from W3. On Skeleton, the code in this tutorial worked well, after a little tweaking
-of classes.</p>
-
-<p>I used the &lsquo;Audit&rsquo; function in Google Chrome to analyse the site&rsquo;s performance and
-there were a lot of minor tweaks required to improve the scores there, but that&rsquo;s
-a post for another time.</p>
-
-<p>I still have several other things that I want to implement on this blog. Next up
-I will add a function to add comments, and I will also add pagination once I have more
-than 10 posts. I&rsquo;d also like to implement a &lsquo;robots.txt&rsquo; file, even though I realise it&rsquo;s not really that necessary for a site like this - I just want to do more things.I&rsquo;m sure that I&rsquo;m not done with the styling yet either.</p>
-
-<p>Thanks for reading!</p>
-</p>
+    <p style="bottom-border: 1px solid;">I&rsquo;ve been working on this blog for some time now and I think it&rsquo;s worthwhile to document what I&rsquo;ve done so far, just in case it&rsquo;s helpful for other people. I mentioned in a previous post that I&rsquo;m building this site with Hugo static site generator. Initially I followed a tutorial from Zachary Wade Betz, on how to build a Hugo blog from scratch. The tutorial can be found here Hugo Tutorial and truly is a great way to get accustomed to the structure of Hugo and how to use it to build a great website.</p>
+    <a href="/blog/blog-building/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/quick-update/"><img src="https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="Quick Update" class="feat"><br>
     <span><h2>Quick Update</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 1 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-26">Oct 26, 2019</time><br>
 
@@ -297,27 +192,15 @@ than 10 posts. I&rsquo;d also like to implement a &lsquo;robots.txt&rsquo; file,
   
 
 
-  <p style="bottom-border: 1px solid;"><p>This is my first mini update of this blog. I&rsquo;ve been learning more and more about Hugo to build out this website and feel like I&rsquo;m getting the hang of it now. I think Hugo
-is a great, easy to access SSG that is incredibly powerful and so fast. The way
-it generates static sites is really quite incredible. I really like it. There has
-been a bit of a learning curve, and there are still plenty of things that I
-still don&rsquo;t know how to do, but it hasn&rsquo;t been anywhere near as complicated as
-I thought it would be. As a bonus, compared to generating posts in WordPress
-this really feels like I&rsquo;m doing something cool and actually programming,
-as opposed publishing the equivalent of a Word document online.</p>
-
-<p>I&rsquo;ll keep learning as I have a long way to go. I want to make the home page of
-this site much better looking and I have many other additions that I&rsquo;d like to
-make. In addition to that, I am still working on my other programming skills.
-One thing that I want to learn is how to deploy an existing code script
-into a web app. Hopefully I&rsquo;ll get to do that soon.</p>
-</p>
+    <p style="bottom-border: 1px solid;">This is my first mini update of this blog. I&rsquo;ve been learning more and more about Hugo to build out this website and feel like I&rsquo;m getting the hang of it now. I think Hugo is a great, easy to access SSG that is incredibly powerful and so fast. The way it generates static sites is really quite incredible. I really like it. There has been a bit of a learning curve, and there are still plenty of things that I still don&rsquo;t know how to do, but it hasn&rsquo;t been anywhere near as complicated as I thought it would be.</p>
+    <a href="/blog/quick-update/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/my-first-real-post/"><img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="My First Real Post" class="feat"><br>
     <span><h2>My First Real Post</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 2 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-24">Oct 24, 2019</time><br>
 
@@ -335,49 +218,16 @@ into a web app. Hopefully I&rsquo;ll get to do that soon.</p>
   
 
 
-  <p style="bottom-border: 1px solid;"><p>So I&rsquo;m getting back into designing websites for fun. I started learning HTML,
-CSS and JavaScript several years ago through freecodeCamp and I really enjoyed it,
-but somehow got out of practice a few years ago.</p>
-
-<p>When I had a need to build a few websites several years ago, instead of putting
-the web design principles that I had already learned, I decided to use WordPress.
-I built quite a few sites using WordPress and some themes, but I always felt
-that it was kinda cheating - not really web design. I still maintained an interest
-in programming, but was mostly focused on learning and using Python. I plan to
-write some future blog posts about Python as I really enjoy writing Python scripts.</p>
-
-<p>Recently I&rsquo;ve been learning more about static site generators and think I&rsquo;ve
-found what I was looking for all those years ago. I love the idea of SSGs and
-have been playing around with quite a lot of them, including Gatsby,
-Jekyll, 11ty, Middleman, and Hugo (which I&rsquo;m using to build this site).</p>
-
-<p>Of the SSGs that I&rsquo;ve been playing around with, I feel that Hugo is the most
-straight-forward and fun to use. I&rsquo;m a bit of a beginner when it comes to GoLang,
-but I really like the idea of it, and it seems to make most sense to me. I will
-look further into 11ty and Gatsby for future projects as I really enjoyed
-playing around with both of them.</p>
-
-<p>I produce content for several blogs that I run, as well as this one. My wife is
-also a contributor to several sites too. She&rsquo;s not really a technical person, so
-I&rsquo;ve also been playing around with a few headless CMS, so that we both can create
-content on the go, from anywhere. I think I&rsquo;ve found the one I like now called
-Sanity.</p>
-
-<p>I&rsquo;ll post a review of Sanity in a future blog, along with some of the
-other tools I&rsquo;ve been playing around with, such as Netlify, Netlify CMS,
-Zeit Now, and the other SSGs that I posted about earlier.</p>
-
-<p>Learning to do front-end web design has been a goal of mine for quite
-some time and I&rsquo;m really happy to be working towards it now.</p>
-
-<p>Stay cool everyone - until next time.</p>
-</p>
+    <p style="bottom-border: 1px solid;">So I&rsquo;m getting back into designing websites for fun. I started learning HTML, CSS and JavaScript several years ago through freecodeCamp and I really enjoyed it, but somehow got out of practice a few years ago.
+When I had a need to build a few websites several years ago, instead of putting the web design principles that I had already learned, I decided to use WordPress. I built quite a few sites using WordPress and some themes, but I always felt that it was kinda cheating - not really web design.</p>
+    <a href="/blog/my-first-real-post/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/that-it-will-never-come-again-emily-dickinson/"><img src="https://images.unsplash.com/photo-1550675897-cab5d3c612a1?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="That It Will Never Come Again" class="feat"><br>
     <span><h2>That It Will Never Come Again</h2></span><h6>Emily Dickinson</h6></a>
-  
+    <p>Reading time: 1 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-22">Oct 22, 2019</time><br>
 
@@ -392,22 +242,22 @@ some time and I&rsquo;m really happy to be working towards it now.</p>
   
 
 
-  <p style="bottom-border: 1px solid;"><p>That it will never come again<br />
-Is what makes life so sweet.<br />
-Believing what we don’t believe<br />
-Does not exhilarate.</p>
-
-<p>That if it be, it be at best<br />
-An ablative estate &ndash;<br />
-This instigates an appetite<br />
+    <p style="bottom-border: 1px solid;">That it will never come again
+Is what makes life so sweet.
+Believing what we don’t believe
+Does not exhilarate.
+That if it be, it be at best
+An ablative estate &ndash;
+This instigates an appetite
 Precisely opposite.</p>
-</p>
+    <a href="/blog/that-it-will-never-come-again-emily-dickinson/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/if-rudyard-kipling/"><img src="https://images.unsplash.com/photo-1551802871-c08d586520a6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="If" class="feat"><br>
     <span><h2>If</h2></span><h6>Rudyard Kipling</h6></a>
-  
+    <p>Reading time: 2 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-17">Oct 17, 2019</time><br>
 
@@ -422,48 +272,22 @@ Precisely opposite.</p>
   
 
 
-  <p style="bottom-border: 1px solid;"><p>If you can keep your head when all about you<br />
-Are losing theirs and blaming it on you,<br />
-If you can trust yourself when all men doubt you,<br />
-But make allowance for their doubting too;<br />
-If you can wait and not be tired by waiting,<br />
-Or being lied about, don’t deal in lies,<br />
-Or being hated, don’t give way to hating,<br />
+    <p style="bottom-border: 1px solid;">If you can keep your head when all about you
+Are losing theirs and blaming it on you,
+If you can trust yourself when all men doubt you,
+But make allowance for their doubting too;
+If you can wait and not be tired by waiting,
+Or being lied about, don’t deal in lies,
+Or being hated, don’t give way to hating,
 And yet don’t look too good, nor talk too wise:</p>
-
-<p>If you can dream—and not make dreams your master;<br />
-If you can think—and not make thoughts your aim;<br />
-If you can meet with Triumph and Disaster<br />
-And treat those two impostors just the same;<br />
-If you can bear to hear the truth you’ve spoken<br />
-Twisted by knaves to make a trap for fools,<br />
-Or watch the things you gave your life to, broken,<br />
-And stoop and build ’em up with worn-out tools:</p>
-
-<p>If you can make one heap of all your winnings<br />
-And risk it on one turn of pitch-and-toss,<br />
-And lose, and start again at your beginnings<br />
-And never breathe a word about your loss;<br />
-If you can force your heart and nerve and sinew<br />
-To serve your turn long after they are gone,<br />
-And so hold on when there is nothing in you<br />
-Except the Will which says to them: ‘Hold on!’</p>
-
-<p>If you can talk with crowds and keep your virtue,<br />
-Or walk with Kings—nor lose the common touch,<br />
-If neither foes nor loving friends can hurt you,<br />
-If all men count with you, but none too much;<br />
-If you can fill the unforgiving minute<br />
-With sixty seconds’ worth of distance run,<br />
-Yours is the Earth and everything that’s in it,<br />
-And—which is more—you’ll be a Man, my son!</p>
-</p>
+    <a href="/blog/if-rudyard-kipling/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/trees-joyce-kilmer/"><img src="https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="Trees" class="feat"><br>
     <span><h2>Trees</h2></span><h6>Joyce Kilmer</h6></a>
-  
+    <p>Reading time: 1 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-13">Oct 13, 2019</time><br>
 
@@ -478,24 +302,18 @@ And—which is more—you’ll be a Man, my son!</p>
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I think that I shall never see<br />
-A poem lovely as a tree.</p>
-
-<p>A tree whose hungry mouth is prest<br />
-Against the earth’s sweet flowing breast;</p>
-
-<p>A tree that looks at God all day,<br />
-And lifts her leafy arms to pray;</p>
-
-<p>A tree that may in Summer wear<br />
-A nest of robins in her hair;</p>
-
-<p>Upon whose bosom snow has lain;<br />
-Who intimately lives with rain.</p>
-
-<p>Poems are made by fools like me,<br />
-But only God can make a tree.</p>
-</p>
+    <p style="bottom-border: 1px solid;">I think that I shall never see
+A poem lovely as a tree.
+A tree whose hungry mouth is prest
+Against the earth’s sweet flowing breast;
+A tree that looks at God all day,
+And lifts her leafy arms to pray;
+A tree that may in Summer wear
+A nest of robins in her hair;
+Upon whose bosom snow has lain;
+Who intimately lives with rain.
+Poems are made by fools like me,</p>
+    <a href="/blog/trees-joyce-kilmer/" class="abt-link">Read More…</a>
 </p>
 
 
@@ -598,7 +416,7 @@ But only God can make a tree.</p>
 <img src="https://track.mailerlite.com/webforms/o/1573268/x2q5q5?v253251d9ecd93b8e74c12a37f72e896f" width="1" height="1" style="max-width: 1px; max-height: 1px; visibility: hidden; padding: 0; margin: 0; display: block;" border="0">
 <script src="https://static.mailerlite.com/js/w/webforms.min.js?v253251d9ecd93b8e74c12a37f72e896f" type="text/javascript"></script>
 
-    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space">bootlegNinja.space</a> 2019
+    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space" class="abt-link">bootlegNinja.space</a> 2019
   <a href="https://dev.to/andyst81"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="andyst81's DEV Profile" class="dev-badge"></a></p>
 </div>
 

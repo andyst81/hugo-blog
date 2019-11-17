@@ -5,26 +5,26 @@ title = "bootlegNinja.space"
 disqusShortname = "bootlegninja"
 googleAnalytics = "UA-87253569-1"
 
-#[[menu.main]]
-#name = "Author"
-#pre = "far fa-home"
-#url = "/author/"
-#weight = 4
+[[menu.main]]
+name = "bootlegNinja.Space"
+pre = "far fa-terminal"
+url = "/"
+weight = 1
 [[menu.main]]
 name = "Blog"
 pre = "far fa-pencil"
 url = "/blog/"
-weight = 1
+weight = 2
 [[menu.main]]
 name = "Tags"
 pre = "far fa-hashtag"
 url = "/tags/"
-weight = 2
+weight = 3
 [[menu.main]]
 name = "About"
 pre = "far fa-user"
 url = "/about/"
-weight = 3
+weight = 4
 [params]
 Description = "My journal of how I'm learning to code."
 dateFormat = "Jan 2, 2006"
