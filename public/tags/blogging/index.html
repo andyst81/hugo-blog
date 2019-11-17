@@ -42,12 +42,10 @@ if (!doNotTrack) {
   <body>
     <div id="nav-border" class="container">
   <nav id="nav" class="nav topnav">
-    <a href="/" class="nav-logo nav-link"><h6><i class="far fa-terminal"></i>
- bootlegNinja.space</h6></a>
     
     
     
-    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
+    <a class="nav-link" href="/"><h6><i class="far fa-terminal"></i> bootlegNinja.Space</h6></a>
     
     
     
@@ -59,7 +57,7 @@ if (!doNotTrack) {
     
     
     
-    <a class="nav-link" href="/projects/"><h6><i class="far fa-home"></i> Projects</h6></a>
+    <a class="nav-link" href="/about/"><h6><i class="far fa-user"></i> About</h6></a>
     
     <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">
 <i class="far fa-bars" style="text-align:right !important;"></i></a>
@@ -88,7 +86,8 @@ function myFunction() {
 <p>
   <a class="simple" href="/blog/adding-things-to-hugo/"><img src="https://images.unsplash.com/photo-1557244252-04610dfe5790?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=960&amp;h=300" alt="Adding Elements to a Hugo a Blog" class="feat"><br>
     <span><h2>Adding Elements to a Hugo a Blog</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 2 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-11-15">Nov 15, 2019</time><br>
 
@@ -106,47 +105,16 @@ function myFunction() {
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I&rsquo;ve really enjoyed playing around with Hugo over the past few weeks and am now
-using it to build another site for my wife. That site is almost complete, which is
-why I haven&rsquo;t really posted much in this site for a while. I have been playing around and adding several small things to this site though.</p>
-
-<p>One very cool addition to the site has been a Disqus comment function. It was very
-easy to set up as part of the Hugo framework and really worthwhile. I don&rsquo;t expect
-a lot of comments on this blog as it is very much a collection of the information
-I write as I put this website together.</p>
-
-<p>Anyway, how to add Disqus to a Hugo site:</p>
-
-<p>It really is as simple as signing up for a Disqus account at <a href="https://disqus.com">https://disqus.com</a>.
-Even this step is as easy as possible as you can simply register using either
-Facebook, Twitter or Google. You can create the traditional way too, but I just used Twitter.</p>
-
-<p>Once you&rsquo;ve created your account, you will be asked something like &ldquo;Nice! Your account has been created. What would you like to do with Disqus?  I want to comment on sites.<br />
-I want to install Disqus on my site.&rdquo;</p>
-
-<p>Fill in the form and create a unique Disqus name for your site - e.g. my-disqus-site-name. Remember this name -
-you will then go to your config.toml file in Hugo and enter the following information</p>
-
-<p>disqusShortname = &ldquo;my-disqus-site-name&rdquo;</p>
-
-<p>You will then be able to put the following inbuilt shortcode into the code of any page
-you want to have comments on:</p>
-
-<pre><code>{{ template &quot;_internal/disqus.html&quot; . }}
-</code></pre>
-
-<p>Personally I just put the above shortcode at the bottom of my blog post template, &ldquo;single.html&rdquo;. I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn&rsquo;t working!</p>
-
-<p>Another small, but cool things I&rsquo;ve added is a link to my <a href="https://dev.to">https://dev.to</a> profile.
-dev.to is a massive inspiration for me and I really enjoy reading content on there.
-If you&rsquo;re interested in coding and are not a member, I strongly suggest you check it out.</p>
-</p>
+    <p style="bottom-border: 1px solid;">I&rsquo;ve really enjoyed playing around with Hugo over the past few weeks and am now using it to build another site for my wife. That site is almost complete, which is why I haven&rsquo;t really posted much in this site for a while. I have been playing around and adding several small things to this site though.
+One very cool addition to the site has been a Disqus comment function. It was very easy to set up as part of the Hugo framework and really worthwhile.</p>
+    <a href="/blog/adding-things-to-hugo/" class="abt-link">Read More…</a>
 </p>
 
 <p>
   <a class="simple" href="/blog/blog-building/"><img src="https://images.unsplash.com/photo-1519337265831-281ec6cc8514?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=967&amp;h=300" alt="Blog Building" class="feat"><br>
     <span><h2>Blog Building</h2></span><h6>Andy T</h6></a>
-  
+    <p>Reading time: 4 min </p>
+    
 
 <i class="fal fa-calendar"></i> <time datetime="2019-10-27">Oct 27, 2019</time><br>
 
@@ -167,68 +135,8 @@ If you&rsquo;re interested in coding and are not a member, I strongly suggest yo
   
 
 
-  <p style="bottom-border: 1px solid;"><p>I&rsquo;ve been working on this blog for some time now and I think it&rsquo;s worthwhile
-to document what I&rsquo;ve done so far, just in case it&rsquo;s helpful for other people.
-I mentioned in a previous post that I&rsquo;m building this site with Hugo static site
-generator. Initially I followed a tutorial from Zachary Wade Betz, on how to
-build a Hugo blog from scratch. The tutorial can be found here <a href="https://zwbetz.com/make-a-hugo-blog-from-scratch/">Hugo Tutorial</a> and truly is
-a great way to get accustomed to the structure of Hugo and how to use it to build
-a great website.</p>
-
-<p>If you follow along with the tutorial, you will see the similarities in styling between this site and the one created in the tutorial. Since completing the tutorial, I have
-made a few modifications to the site to make it more inline with what I like.
-The first modification I made was to move from Bootstrap to Skeleton. I&rsquo;ve always
-found Bootstrap to be quite unwieldy due to the sheer number of options it has.
-As such, I was on the lookout for a similar, but much easier to handle framework
-and I believe I have found that - <a href="http://getskeleton.com/">Skeleton</a>.</p>
-
-<p>Skeleton is a very lightweight boilerplate for simple web design. It is only
-around 400 lines of CSS, focused on the most common HTML elements. It&rsquo;s certainly
-not suitable for every project, but for a simple blog with minimal styling, it&rsquo;s
-perfect. The best part is that it&rsquo;s not a million miles away from Bootstrap, so
-the conversion was fairly painless. I had to reclassify a few elements, but the
-whole process of migrating to Skeleton from Bootstrap probably look less than an
-hour.</p>
-
-<p>To make the migration, I simply downloaded the <a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/skeleton.css">Skeleton CSS file</a>, as well as the
-<a href="https://raw.githubusercontent.com/dhg/Skeleton/master/css/normalize.css">Normalize CSS</a>
-files and copied them into the &lsquo;static/css&rsquo; directory of my blog project. I made sure to
-search for Bootstrap across the whole project and made sure to link to
-Skeleton instead. Then I created a &lsquo;stylesheet.css&rsquo; file to manually add any other
-stylings required.</p>
-
-<p>After migrating to Skeleton, the next thing I wanted to do was migrate the icons to
-FontAwesome. I&rsquo;m a pro FontAwesome subscriber after contributing to their
-KickStarter campaign for FA5 several years ago. FontAwesome have a lot more icons
-to choose from and I think their icons just look a bit better too, so the switch
-was a good move for me. Again this didn&rsquo;t take a huge amount of time. I had to
-create a kit inside FontAwesome and put the link to that kit in my &lsquo;head.html&rsquo; partial.
-Then I had to rename the &ldquo;Pre&rdquo; section for each menu item in &lsquo;config.toml&rsquo; to the FontAwesome name. I also went through and changed the other icons in the blog,
-such as the &lsquo;tags&rsquo;.</p>
-
-<p>On the subject of fonts, I also changed the typography of the site by adding a
-couple of Google Fonts to the site. This was simply a matter of finding the fonts
-that I like and copying the convenient code Google Fonts provides into my
-&lsquo;stylesheet.css&rsquo; file and editing the relevant elements.</p>
-
-<p>The most difficult thing I did was creating a responsive mobile &lsquo;hamburger&rsquo; menu.
-I looked through quite a lot of responsive Hugo themes and tried to copy from them,
-but I kept running into problems - either with the styling, or messing up the menu
-on desktop or even just disappearing completely. In the end I was able to modify
-<a href="https://www.w3schools.com/howto/howto_js_topnav_responsive.asp">this tutorial</a>
-from W3. On Skeleton, the code in this tutorial worked well, after a little tweaking
-of classes.</p>
-
-<p>I used the &lsquo;Audit&rsquo; function in Google Chrome to analyse the site&rsquo;s performance and
-there were a lot of minor tweaks required to improve the scores there, but that&rsquo;s
-a post for another time.</p>
-
-<p>I still have several other things that I want to implement on this blog. Next up
-I will add a function to add comments, and I will also add pagination once I have more
-than 10 posts. I&rsquo;d also like to implement a &lsquo;robots.txt&rsquo; file, even though I realise it&rsquo;s not really that necessary for a site like this - I just want to do more things.I&rsquo;m sure that I&rsquo;m not done with the styling yet either.</p>
-
-<p>Thanks for reading!</p>
-</p>
+    <p style="bottom-border: 1px solid;">I&rsquo;ve been working on this blog for some time now and I think it&rsquo;s worthwhile to document what I&rsquo;ve done so far, just in case it&rsquo;s helpful for other people. I mentioned in a previous post that I&rsquo;m building this site with Hugo static site generator. Initially I followed a tutorial from Zachary Wade Betz, on how to build a Hugo blog from scratch. The tutorial can be found here Hugo Tutorial and truly is a great way to get accustomed to the structure of Hugo and how to use it to build a great website.</p>
+    <a href="/blog/blog-building/" class="abt-link">Read More…</a>
 </p>
 
 
@@ -331,7 +239,7 @@ than 10 posts. I&rsquo;d also like to implement a &lsquo;robots.txt&rsquo; file,
 <img src="https://track.mailerlite.com/webforms/o/1573268/x2q5q5?v253251d9ecd93b8e74c12a37f72e896f" width="1" height="1" style="max-width: 1px; max-height: 1px; visibility: hidden; padding: 0; margin: 0; display: block;" border="0">
 <script src="https://static.mailerlite.com/js/w/webforms.min.js?v253251d9ecd93b8e74c12a37f72e896f" type="text/javascript"></script>
 
-    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space">bootlegNinja.space</a> 2019
+    <p><i class="far fa-copyright"></i> Copyright <a href="https://bootlegNinja.space" class="abt-link">bootlegNinja.space</a> 2019
   <a href="https://dev.to/andyst81"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="andyst81's DEV Profile" class="dev-badge"></a></p>
 </div>
 
