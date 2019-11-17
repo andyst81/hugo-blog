@@ -15,7 +15,7 @@ Resources used in this project:
 
 To do:
 - ~~add footer with credits~~
-- add summaries to the blog page
+- ~~add summaries to the blog page~~
 - edit service worker to update html more frequently
 - update index page - better ui
 - add pagination - after 10 blog posts
@@ -23,5 +23,5 @@ To do:
 - add authors as a section
 - add projects as a section
 - ~~center (or right) nav bar and add logo~~
-- put blog logo inline with other nav elements on mobile device
-- add reading time to blogs page
+- ~~put blog logo inline with other nav elements on mobile device~~
+- ~~add reading time to blogs page~~
