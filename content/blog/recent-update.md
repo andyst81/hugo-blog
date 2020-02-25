@@ -3,7 +3,7 @@ title: "Recent Update"
 author: "Andy T"
 date: 2020-02-25T20:02:54+07:00
 tags: ["hugo", "web design", "gatsby"]
-draft: true
+draft: false
 description: "An update of what I've been doing recently in my coding practice"
 featured_image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&h=300"
 ---
@@ -29,4 +29,9 @@ she would like to add.
  continue using Hugo for this site, but I plan to develop my wife's site using
  Gatsby.  
 
- I've also been
+ I've also been learning React a bit more, as it's an interesting framework to know.
+ Since learning more about it, I've revisited Gatsby, which was one of the tools
+ I considered before building this blog. Basically, I believe Gatsby is the tool
+ I need to use to build my wife's portfolio site as I feel more confident creating
+ more complex objects using it. Let's see. Hopefully I'll post a few more specific
+ updates as that site is progressing, along with a link to the actual finished site.
