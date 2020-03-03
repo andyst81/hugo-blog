@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web development on bootlegNinja.space</title>
+    <link>https://bootlegninja.space/tags/web-development/</link>
+    <description>Recent content in web development on bootlegNinja.space</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Mar 2020 06:10:50 +0700</lastBuildDate>
+    
+	<atom:link href="https://bootlegninja.space/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Freecodecamp The Story of a Moderate Achievement</title>
+      <link>https://bootlegninja.space/blog/freecodecamp/</link>
+      <pubDate>Tue, 03 Mar 2020 06:10:50 +0700</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/freecodecamp/</guid>
+      <description>The title of this post says &amp;ldquo;a moderate achievement&amp;rdquo; and in reality it is, but I am still proud of the topic that I&amp;rsquo;m about to talk about.
+I mentioned in one of my first posts on this blog that I started using freeCodeCamp many years ago as one of my first forays into learning front end development. At the time HTML, CSS and JavaScript. I was dedicated for a number of month and almost completed the front end certificate, which consisted of about 300 hours of study.</description>
+    </item>
+    
+  </channel>
+</rss>

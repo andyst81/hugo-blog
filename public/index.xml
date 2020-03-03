@@ -6,10 +6,64 @@
     <description>Recent content on bootlegNinja.space</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bootlegninja.space/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Freecodecamp The Story of a Moderate Achievement</title>
+      <link>https://bootlegninja.space/blog/freecodecamp/</link>
+      <pubDate>Tue, 03 Mar 2020 06:10:50 +0700</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/freecodecamp/</guid>
+      <description>The title of this post says &amp;ldquo;a moderate achievement&amp;rdquo; and in reality it is, but I am still proud of the topic that I&amp;rsquo;m about to talk about.
+I mentioned in one of my first posts on this blog that I started using freeCodeCamp many years ago as one of my first forays into learning front end development. At the time HTML, CSS and JavaScript. I was dedicated for a number of month and almost completed the front end certificate, which consisted of about 300 hours of study.</description>
+    </item>
+    
+    <item>
+      <title>Recent Update</title>
+      <link>https://bootlegninja.space/blog/recent-update/</link>
+      <pubDate>Tue, 25 Feb 2020 20:02:54 +0700</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/recent-update/</guid>
+      <description>So it&amp;rsquo;s been a while since I posted an update on this blog. I guess it seems like I&amp;rsquo;ve been taking a break from coding, but that&amp;rsquo;s not exactly accurate. Before starting this site, I spent a lot of time looking at the many web design tools and decided that I wanted to use an SSG to create this blog.
+I investigated all the major SSGs, Hugo, Gatsby, Jekyll, 11ty and more and decided that Hugo was the best for me as it seemed to have the shortest entry barrier.</description>
+    </item>
+    
+    <item>
+      <title>Sonnet 118</title>
+      <link>https://bootlegninja.space/blog/sonnet-118/</link>
+      <pubDate>Fri, 14 Feb 2020 19:53:58 +0700</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/sonnet-118/</guid>
+      <description>Shall I compare thee to a summer&amp;rsquo;s day?
+Thou art more lovely and more temperate:
+Rough winds do shake the darling buds of May,
+And summer&amp;rsquo;s lease hath all too short a date:
+Sometime too hot the eye of heaven shines,
+And often is his gold complexion dimmed,
+And every fair from fair sometime declines,
+By chance, or nature&amp;rsquo;s changing course untrimmed:
+But thy eternal summer shall not fade,
+Nor lose possession of that fair thou ow&amp;rsquo;st,</description>
+    </item>
+    
+    <item>
+      <title>T&#39;was the Night Before Christmas</title>
+      <link>https://bootlegninja.space/blog/the-night-before-christmas/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bootlegninja.space/blog/the-night-before-christmas/</guid>
+      <description>&amp;lsquo;Twas The Night Before Christmas, when all through the house
+Not a creature was stirring, not even a mouse;
+The stockings were hung by the chimney with care,
+In hopes that St. Nicholas soon would be there;
+The children have nestled all snug in their beds,
+While visions of sugar-plums danced in their heads;
+And mamma in her &amp;lsquo;kerchief, and I in my cap,
+Had just settled down for a long winter&amp;rsquo;s nap,</description>
+    </item>
     
     <item>
       <title>Adding Elements to a Hugo a Blog</title>
