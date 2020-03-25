@@ -37,8 +37,10 @@ you want to have comments on:
 
 No need to create this file as it's already a default inside of Hugo. Personally I just put the above shortcode at the bottom of my blog post template, "single.html". I think the most difficult part of this whole process was using my site name - stupidly I was using my own username for Disqus and wondering why it wasn't working!
 
-Another small, but cool things I've added is a link to my https://dev.to profile.
+Another small, but cool things I've added is a link to my [Dev.To](https://dev.to/andyst81) profile.
 dev.to is a massive inspiration for me and I really enjoy reading content on there.
 If you're interested in coding and are not a member, I strongly suggest you check it out.
 It is an awesome site full of content created by other developers - from beginner to
 advanced. The community there is really cool too.
+
+[Photo by Edvin Johansson](https://unsplash.com/photos/UGGinojhaC0)

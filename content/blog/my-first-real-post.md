@@ -44,3 +44,5 @@ Learning to do front-end web design has been a goal of mine for quite
 some time and I'm really happy to be working towards it now.
 
 Stay cool everyone - until next time.
+
+[Photo by Ilya Pavlov](https://unsplash.com/photos/OqtafYT5kTw)

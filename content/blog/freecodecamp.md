@@ -1,5 +1,5 @@
 ---
-title: "Freecodecamp The Story of a Moderate Achievement"
+title: "Freecodecamp - The Story of a Moderate Achievement"
 author: 'Andy T'
 date: 2020-03-03T06:10:50+07:00
 tags: ['web development', 'freecodecamp', 'achievement']
@@ -32,4 +32,6 @@ And now the Algorithms and JavaScript certificate:
 
 I didn't complete them on the same day, there were a few days in between before I realized that I had to update my details and actually claim the certificates, which is what happened this past Saturday.  
 
-I'm still going ahead with my study on freeCodeCamp as I would like to complete the Front End Libraries certificate in the coming weeks. I'm learning more and more about React at the moment, which I hope will help me to develop more websites in future as I move towards Gatsby and maybe even NextJS. Who knows what the future will bring, I've changed my mind and changed what I want to study several times since I started writing this blog several months ago, so things could change again. 
+I'm still going ahead with my study on freeCodeCamp as I would like to complete the Front End Libraries certificate in the coming weeks. I'm learning more and more about React at the moment, which I hope will help me to develop more websites in future as I move towards Gatsby and maybe even NextJS. Who knows what the future will bring, I've changed my mind and changed what I want to study several times since I started writing this blog several months ago, so things could change again.
+
+[Photo by Guille Álvarez](https://unsplash.com/photos/IcI3FizU9Cw)

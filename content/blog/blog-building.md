@@ -69,3 +69,5 @@ I will add a function to add comments, and I will also add pagination once I hav
 than 10 posts. I'd also like to implement a 'robots.txt' file, even though I realise it's not really that necessary for a site like this - I just want to do more things.I'm sure that I'm not done with the styling yet either.
 
 Thanks for reading!
+
+[Photo by NeONBRAND](https://unsplash.com/photos/3GZNPBLImWc)
