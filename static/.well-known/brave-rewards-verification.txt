@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: bootlegninja.space
+Token: 9f302b23f08db4035490b2e719457d2afa61419630acca3a2be82997806c1b80
