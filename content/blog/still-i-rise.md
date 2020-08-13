@@ -48,4 +48,4 @@ I am the dream and the hope of the slave.
 I rise  
 I rise  
 I rise.  
-[image by](url)
+[image by Maxine Yang](https://unsplash.com/photos/TFoZ93XScFM)
