@@ -1,5 +1,5 @@
 ---
-title: "Still I rise"
+title: "Still I Rise"
 author: 'Maya Angelou'
 date: 2020-05-30
 tags: ['poetry', 'strength']
