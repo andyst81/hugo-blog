@@ -26,7 +26,7 @@ pre = "far fa-user"
 url = "/about/"
 weight = 4
 [params]
-Description = "My journal of how I'm learning to code."
+Description = "Random musings of an amateur coder, guitar player, foodie and poetry fan."
 dateFormat = "Jan 2, 2006"
 homeText = "This is my blog of my adventures learning to build websites using Hugo and a few other tools."
 [taxonomies]
